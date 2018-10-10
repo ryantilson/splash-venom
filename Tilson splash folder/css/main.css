@@ -1,0 +1,63 @@
+html, body {
+  /* background-image: url(../img/topimage.jpg);
+  background-repeat: no-repeat;
+  background-color:black; */
+  margin:0;
+  background-color: black;
+  
+}
+
+.content-wrapper {
+    position:relative;
+}
+
+.content-inner-one{
+    height: 100vh;
+    background-image: url(../img/topimage.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:inherit;
+  
+}
+
+.actor-title-release {
+    margin: 0;
+    font-family: 'Playfair+Display+SC';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-family: Arial;
+    text-transform: capitalize;
+    text-shadow: 1px 1px (gray);
+    color: rgb(255, 255, 255);
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Playfair+Display+SC';   
+}
+
+
+.synopsis {
+    height: 100vh;
+    vertical-align: baseline;
+    padding: 0;
+    margin: 0px auto;
+
+    font-family: Gill Sans;
+    color: rgb(255, 255, 255);
+   
+    margin-left: 0 auto;
+    transform: translate(10%, 5%);
+    width: 1440px;
+}
+.logos {
+    position: relative;
+    top: 80px;
+}
